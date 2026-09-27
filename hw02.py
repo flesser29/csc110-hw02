@@ -10,7 +10,9 @@ def read_two_ints():
     """Read two integers from user imput."""
     # the return shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
+    # Assign "a" to the imput "give me x" and convert it into an integer
     a = int(input("give me x: "))
+    # Assign "b" to the imput "give me y" and convert it into an integer
     b = int(input("give me y: "))
     return a,b
     
@@ -21,9 +23,13 @@ def compute_multadd(a, b):
     """Compute (a+b)/(a-b) using the inputs."""
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
+    # Assign "mult_result" to "a*b"
     mult_result = a * b
+    # Print the function
     print (f"mult result: {mult_result}")
+    # Assign "add_result" to "a+b"
     add_result = a+b
+    # Print the function
     print (f"add result: {add_result}")
     return mult_result/add_result
 
@@ -34,6 +40,7 @@ def print_fancy(a, b, ab_multadd):
     """Print results in a fancy block."""
     # the pass shown below is a placeholder to make sure this runs
     # TODO: complete the function instead of the line shown below
+    # Print the inputs and results of multadd in a fancy format
     print ("****************")
     print ("RESULTS:")
     print (f"first number: {a}")
@@ -72,7 +79,7 @@ if __name__ == "__main__":
 
 # - [x] you added your name to the top comments of the python file
 # - [x] runs without syntax errors (or -50%)
-# - [ ] adds a few small but informative comments (or -5%)
+# - [x] adds a few small but informative comments (or -5%)
 # - [x] adds docstrings to each function (or -5%)
 # - [x] Passes all tests (or lose 15% per missed test). If you do not pass all tests, do not check this box
-# - [ ] You checked the correct boxes
+# - [x] You checked the correct boxes
